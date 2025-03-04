@@ -1,16 +1,5 @@
 # face-and-body-detection
 
-if len(faces) > 0:
-    ''' When a face is detected, the program initiates video recording.
-        The video recording continues as long as faces are detected.
-        If no faces are detected, the program stops recording. '''
-    if not recording:
-        # Start recording
-        current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        current_time2 = datetime.now().strftime("%Y-%m-%d_%H-%M")
-        # Get current time and date
-        out = cv2.VideoWriter(f'detected_face_video_{current_time2}.avi', fourcc, 20.0, (640, 480))
-        recording = True
 
     # Detect Face's
     '''The program uses Haar cascades (haarcascade_frontalface_default.xml) to detect faces in each frame.
