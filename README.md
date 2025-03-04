@@ -1,5 +1,4 @@
 # face-and-body-detection
-# Face and Body Detection with movement body language and save the photos and videos for specific movement.
 
 if len(faces) > 0:
     ''' When a face is detected, the program initiates video recording.
