@@ -40,3 +40,8 @@ if len(faces) > 0:
         cv2.imwrite(body_name, frame[y:y + h, x:x + w])
         print(f'Body detected. Image saved as {body_name}')
         # Assuming only body is captured
+
+Additional Enhancements
+# Use pre-trained DNN models for better accuracy.
+# Implement a logging system.
+# Add a GUI for better user experience. 
